@@ -1,0 +1,13 @@
+# Allowlist: ignore everything, then include only the code and docs below.
+# Data, outputs, the trained model and the synthetic sample are derived from
+# licensed CLDN lightning data and must not be committed (see README).
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+!run_pipeline.py
+
+!src/
+!src/common.py
+!src/step*.py
